@@ -8,12 +8,14 @@
       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
    </head>
    <body>
-      <div class="navigation">
+   <div class="navigation">
          <div class="stylenavigation">
+            <ul>
             <li><a class="navigationlink1" href="#">Layout 3</a></li>
             <li><a class="navigationlink2" href="#">About</a></li>
             <li><a class="navigationlink3" href="#">Services</a></li>
             <li><a class="navigationlink4" href="#">Contact</a></li>
+            </ul>
          </div>
       </div>
       <div class="middlediv">
@@ -40,7 +42,7 @@
                 <!-- Fourth div start -->
                 <div class="fourthdivls">
                    <p class="thirddivpsltyle1">
-                       Lorum ipsum dolor sit amet ,consecturer adipiscing elit . Ducimus,vero,<br/>
+                       Lorum ipsum dolor sit amet ,consecturer adipiscing elit . Ducimus,vero,
                        obcaecati,aut,error quam sapiente nemo saepe quibusdam sit
                        expecturi nam quia corporis eligendi eos magni recusande laborum minus inventor? <br/>
                   </p>
@@ -58,25 +60,20 @@
                    </p>
                </div>
                 <!-- Fourth div finish -->
-                <div class="footer">
-                  <div class="copyright">
-                     <p class="copyrighttext">Copyright © Your Website 2014</p>
-                  </div>
-               </div>
             </div>
 
              <!-- // right side div -->
              <div class="rightsidediv">
             <!-- first div start -->
              <div class="firstdivrs">
-                <div class="middlersdiv1">
+               <div class="middlersdiv1">
                 <h2 class="firstdivhrstyle">Blog Search</h2>
                   <div class="inputsearch">
-                  <input type="search" class="stylesearch" /> </div>
-                 
-                  <button type="button" class="iconsearch">
-                  <i class="fas fa-search"></i>
-                 </button>
+                     <input type="text" class="stylesearch" />
+                     <button type="button" class="stylebutton">
+                     <i class="fas fa-search"></i>
+                     </button>
+                  </div>
                </div>
              </div>
             <!-- first div finish -->
@@ -106,8 +103,14 @@
                </div>
              </div>
              <!-- third div finish -->
-             </div>
+             
          </div>
+         <div class="footer">
+                  <div class="copyright">
+                     <p class="copyrighttext">Copyright © Your Website 2014</p>
+                  </div>
+               </div>
+             </div>
       </div>
     </body>
 </html>
